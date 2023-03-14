@@ -22,11 +22,8 @@ export default function Home({ allPostsData }) {
       </Head>
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
         <p>I'm WEB & Automation Developer</p>
-        <p>
-          (This is a sample website - you’ll be building a site like this on{' '}
-          <a href="https://nextjs.org/learn">our Next.js tutorial</a>.)
-        </p>
-        <h2 className={utilStyles.headingLg}>Blog</h2>
+        <p>Here are some projects that have been worked on: </p>
+        <h2 className={utilStyles.headingLg}>Projects : </h2>
         <ul className={utilStyles.list}>
           {allPostsData.map(({ id, date, title }) => (
             <li className={utilStyles.listItem} key={id}>
