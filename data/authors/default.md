@@ -13,4 +13,4 @@ Slamet is a WEB and Automation developer
 
 WEB uses React - Next.js, Node.js & Mongodb technology
 
-ESP family based automation as well as Arduino
+Automation uses ESP family as well as Arduino

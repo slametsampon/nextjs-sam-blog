@@ -1,3 +1,4 @@
+import HomeLayout from '../components/home-layout';
 import Link from '../components/Link';
 import { PageSEO } from '../components/SEO';
 import Tag from '../components/Tag';
