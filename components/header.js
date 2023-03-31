@@ -4,7 +4,7 @@ import styles from './layout.module.css';
 export const name = 'Slamet';
 export const siteTitle = 'Slamet - Website';
 
-export default function Header({ children, home }) {
+export default function Header() {
   return (
     <div className={styles.container}>
       <Head>
@@ -19,8 +19,6 @@ export default function Header({ children, home }) {
         <meta name="og:title" content={siteTitle} />
         <meta name="twitter:card" content="summary_large_image" />
       </Head>
-      <header className={styles.header}></header>
-      <main>{children}</main>
     </div>
   );
 }
