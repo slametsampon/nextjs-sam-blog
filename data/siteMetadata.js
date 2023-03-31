@@ -1,14 +1,14 @@
 const siteMetadata = {
-  title: 'Slamet - Blog',
-  author: 'Sam - Slamet',
-  headerTitle: 'Sam-PrivateBlog',
-  description: 'A blog created for personal purpose',
+  title: 'Next.js Starter Blog',
+  author: 'Tails Azimuth',
+  headerTitle: 'TailwindBlog',
+  description: 'A blog created with Next.js and Tailwind.css',
   language: 'en-us',
   theme: 'system', // system, dark or light
-  siteUrl: 'https://https://nextjs-sam-blog.vercel.app/',
-  siteRepo: 'https://https://github.com/slametsampon/nextjs-sam-blog',
-  siteLogo: '/static/images/bernas.jpg',
-  image: '/static/images/bernas.jpg',
+  siteUrl: 'https://tailwind-nextjs-starter-blog.vercel.app',
+  siteRepo: 'https://github.com/timlrx/tailwind-nextjs-starter-blog',
+  siteLogo: '/static/images/logo.png',
+  image: '/static/images/avatar.png',
   socialBanner: '/static/images/twitter-card.png',
   email: 'address@yoursite.com',
   github: 'https://github.com',
@@ -80,6 +80,6 @@ const siteMetadata = {
       shortname: process.env.NEXT_PUBLIC_DISQUS_SHORTNAME,
     },
   },
-};
+}
 
-module.exports = siteMetadata;
+module.exports = siteMetadata
