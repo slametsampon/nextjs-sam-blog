@@ -1,7 +1,7 @@
 const siteMetadata = {
   title: 'Slamet - Blog',
   author: 'Sam - Slamet',
-  headerTitle: 'PrivateBlog',
+  headerTitle: 'Sam-PrivateBlog',
   description: 'A blog created for personal purpose',
   language: 'en-us',
   theme: 'system', // system, dark or light
