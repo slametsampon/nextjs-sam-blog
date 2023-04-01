@@ -1,19 +1,23 @@
 const projectsData = [
   {
-    title: 'A Search Engine',
-    description: `What if you could look up any information in the world? Webpages, images, videos
-    and more. Google has many features to help you find exactly what you're looking
-    for.`,
-    imgSrc: '/static/images/google.png',
-    href: 'https://www.google.com',
+    title: 'WIS - Wireless Irrigation System',
+    description: `WIS will control all water needed for plants.
+    WIS able to setup for time period, duration (water-volume) as well as auto mode from any devices connected to WIFI
+    The feature included water storage control to server water availability for all plants`,
+    imgSrc: '/static/images/wis.png',
+    href: 'https://github.com/slametsampon/WIS_SAM',
   },
   {
-    title: 'The Time Machine',
-    description: `Imagine being able to travel back in time or to the future. Simple turn the knob
-    to the desired date and press "Go". No more worrying about lost keys or
-    forgotten headphones with this simple yet affordable solution.`,
-    imgSrc: '/static/images/time-machine.jpg',
-    href: '/blog/the-time-machine',
+    title: 'IoT - Data Logger',
+    description: `Data logger is self operated data logging and reported in pdf format every day`,
+    imgSrc: '/static/images/datalogger.png',
+    href: 'https://github.com/slametsampon/dataLogger',
+  },
+  {
+    title: 'Blog - Private',
+    description: `Blog Website uses Next.js, Tailwindcss, MDX technologies`,
+    imgSrc: '/static/images/privateBlog.jpg',
+    href: 'https://github.com/slametsampon/nextjs-sam-blog',
   },
 ]
 
