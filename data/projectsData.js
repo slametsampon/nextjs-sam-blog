@@ -3,7 +3,7 @@ const projectsData = [
     title: 'WIS - Wireless Irrigation System',
     description: `WIS will control all water needed for plants.
     WIS able to setup for time period, duration (water-volume) as well as auto mode from any devices connected to WIFI
-    The feature included water storage control to server water availability for all plants`,
+    The feature included water storage control to serve water availability for all plants`,
     imgSrc: '/static/images/wis.png',
     href: 'https://github.com/slametsampon/WIS_SAM',
   },
