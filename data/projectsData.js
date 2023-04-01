@@ -14,6 +14,12 @@ const projectsData = [
     href: 'https://github.com/slametsampon/dataLogger',
   },
   {
+    title: 'CMMS - Computerized Maintenance Management System',
+    description: `Industrial Maintenance Management System for entity assets`,
+    imgSrc: '/static/images/cmmsClassDiagram.png',
+    href: 'https://github.com/slametsampon/cmms_nextjs',
+  },
+  {
     title: 'Blog - Private',
     description: `Blog Website uses Next.js, Tailwindcss, MDX technologies`,
     imgSrc: '/static/images/privateBlog.jpg',
